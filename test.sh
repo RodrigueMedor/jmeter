@@ -31,5 +31,8 @@ cat ${T_DIR}/jmeter.log
 echo "==== Raw Test Report ===="
 cat ${T_DIR}/test-plan.jtl
 
+echo "==== Raw Test Report *********************************************************===="
+cat ${T_DIR}/test-plan.csv
+
 echo "==== HTML Test Report ===="
 echo "See HTML test report in ${R_DIR}/index.html"
